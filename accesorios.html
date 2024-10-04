@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACCESORIOS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos para posicionar el texto dentro de la imagen */
+        .text-box2 {
+            position: relative;
+            background-image: url('img/accesorios-bg.jpg'); /* Imagen de fondo para la sección */
+            background-size: cover;
+            background-position: center;
+            height: 400px; /* Altura de la imagen */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .text-box2 h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .text-box2 p {
+            font-size: 20px;
+            margin: 10px 0 0 0;
+        }
+
+        .text-box2::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Capa oscura sobre la imagen */
+        }
+
+        .text-box2 > * {
+            position: relative;
+            z-index: 1; /* Elevar el texto sobre la capa oscura */
+            text-align: center;
+        }
+        
+        /* Estilos de la sección de accesorios */
+        .pruebas-col-images img {
+            width: calc(33.333% - 10px);
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <section class="header3">
+        <nav>
+           <a href="bike_xela.html"><img src="img/logo1.jpeg" alt="Logo"></a>
+           <div class="nav-links">
+               <ul>
+                <li><a href="bike_xela.html">INICIO</a></li>
+                <li><a href="Bicicletas.html">BICICLETAS</a></li>
+                <li><a href="cascos.html">CASCOS</a></li>
+                <li><a href="ZAPATOS.html">ZAPATOS</a></li>
+                <li><a href="lentes.html">LENTES</a></li>
+                <li><a href="guantes.html">GUANTES</a></li>
+                <li><a href="ropa.html">ROPA</a></li>
+                <li><a href="accesorios.html">ACCESORIOS</a></li>
+                <li><a href="herramientas.html">HERRAMIENTAS</a></li>
+                <li><a href="taller.html">TALLER</a></li>
+                <li><a href="contactos.html">CONTACTOS</a></li>
+               </ul>
+           </div>
+        </nav>
+    </section>
+
+    <div class="text-boxp3">
+        <h1>ACCESORIOS</h1>
+        <br><br><br><br>
+        <p>Descubre los mejores accesorios que te acompañarán en cada aventura.</p>
+    </div>
+
+    <section class="course">
+        <div class="row">
+            <div class="course-col">
+                <h3>BUFF</h3>
+                <p>
+                    ¡Descubre el poder de la versatilidad con nuestros Buffs! Protege tu cuello, cabeza y rostro mientras disfrutas de tus aventuras al aire libre. Ligero, cómodo y multifuncional, ¡el complemento perfecto para ciclistas y aventureros!.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>CALCETAS</h3>
+                <p>
+                    ¡Pedalea con estilo y comodidad! Nuestras calcetas para ciclistas están diseñadas para ofrecer máxima ventilación, soporte y durabilidad en cada ruta. ¡Haz que cada kilómetro cuente con Bike Xela!.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>PACHONES</h3>
+                <p>
+                    ¡Mantente hidratado en cada aventura! Descubre los pachones de Bike Xela, diseñados para acompañarte en tus rutas más desafiantes. ¡Comodidad y frescura sobre dos ruedas!.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>GARMIN</h3>
+                <p>
+                    Con Garmin en Bike Xela, alcanza tu máximo rendimiento y supera tus límites. Equipado con tecnología avanzada para monitorear tu progreso, cada ruta será una nueva oportunidad para mejorar. ¡Lleva tu ciclismo al siguiente nivel con Garmin y siente la diferencia en cada pedalada!.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>AUDÍFONOS</h3>
+                <p>
+                    Sumérgete en el sonido con los audífonos de Bike Xela. Disfruta de una calidad de audio superior en cada kilómetro, ya sea en el gimnasio o en tus rutas al aire libre. Conéctate a la motivación que necesitas y lleva tu entrenamiento al siguiente nivel. ¡Haz que cada canción cuente!.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="pruebas-col">
+        <h1>DIVIÉRTETE AVENTURANDO</h1>
+        <p>Échale un vistazo a algunos de nuestros accesorios</p>
+        <div class="pruebas-col-images">
+            <img src="img/1.jpg" alt="BUFF">
+            <img src="img/2.jpg" alt="CALCETAS">
+            <img src="img/3.jpg" alt="CALCETAS">
+            <img src="img/4.jpg" alt="PACHONES">
+            <img src="img/5.jpg" alt="GARMIN">
+            <img src="img/6.jpg" alt="AUDÍFONOS">
+        </div>
+    </section>
+</body>
+</html>
+
